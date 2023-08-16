@@ -27,11 +27,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 ```html
-<b>This html element makes my text bold</b>
+<main>This html element shows the where our main content will be added to</main>
 ```
 ```css
 .proud-of-this-css {
-  height:fit-content;
+  min-height: 100vh;
 }
 ```
 

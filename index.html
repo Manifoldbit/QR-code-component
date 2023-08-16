@@ -10,91 +10,71 @@
 
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution {
-      font-size: 11px;
+    body {
+      background-color: gray;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      max-width: 20rem;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 0.938rem;
       text-align: center;
     }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-      position: relative;
-    }
-
-    .grey-div {
+    .card-image {
       width: 90%;
-      height: 500px;
-      background-color: grey;
-      margin: auto;
-      margin-top: 50px;
-      position: relative;
+      border-radius: 0.625rem;
+      margin: 5%;
     }
 
-    .white-div {
-      width: 230px;
-      height: 350px;
-      background-color: white;
-      position: relative;
-      bottom: 430px;
-      left: 40%;
-      border-radius: 10px;
-      position: relative;
+    .card-heading {
+      margin: 2% 5%;
+      padding: 0% 5%;
     }
 
-
-    img {
-      height: 200px;
-      width: 220px;
-      object-fit: contain;
-      position: relative;
-      bottom: 770px;
-      left: 537px;
-      border-radius: 12%;
+    .card-description {
+      margin: 5% 5% 12%;
+      padding: 0% 5%;
     }
 
-    .text {
-      height: fit-content;
-      width: 215px;
-      position: relative;
-      left: 550px;
-      bottom: 760px
+    footer {
+      margin: 0% 37%;
+      min-width: 80%;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
     }
   </style>
+
 </head>
 
-<body style="height: 50vh;">
-  <div class="grey-div">
-  </div>
-  <div class="white-div">
-  </div>
+<body>
+  <main class="container">
+    <div class="card">
+      <img class="card-image" src="./images/image-qr-code.png" alt="QR Code for frontendmentor.io">
+      <h1 class="card-heading">Improve your front-end skills by building projects</h1>
+      <p class="card-description">Scan the QR code to visit Frontend Mentor and take your coding skill to the next level
+      </p>
+    </div>
+
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+        Mentor</a>.
+      Coded by <a href="https://github.com/Manifoldbit" target="_blank">Bit_Codes</a>
+    </div>
+  </footer>
 
 
-
-  <img src="./images/image-qr-code.png" alt="">
-
-  <div class="text">
-    <b id="" style="margin-left: 6px; font-size:17px;">Improve your front-end
-    </b><br>
-    <b id="" style="font-size: 17px;">skills by building projects</b><br><br>
-
-  </div>
-
-  <div style="position: relative; width:fit-content; height: fit-content;  bottom: 770px; left: 550px">
-    <label style="font-size: 12px; margin-left: 6px; color: grey;">Scan the QR code to visit Frontend</label><br>
-    <label style="font-size: 12px; color: grey;">Mentor and take your coding skills to</label><br>
-    <label style="font-size: 12px; margin-left: 60px; color: grey;">the next level</label>
-  </div>
-
-
-
-
-
-  <div class="attribution" style="position: relative; bottom: 680px; color: white; margin-left: -50px;">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" style="color:white">Frontend
-      Mentor</a>.
-    Coded by <a href="https://github.com/Manifoldbit" style="color:white" target="_blank">Bit_Codes</a>.
-  </div>
 </body>
-
-</html>
